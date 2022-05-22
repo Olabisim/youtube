@@ -32,9 +32,9 @@ export default function Header() {
                         </V>
 
                         <V style={{flexDirection: "row", justifyContent: "space-around", width: 150, margin: 5}}>  
-                                <Ionicons name="md-videocam" size={32} color={mycolor} />
-                                <Ionicons name="md-search" size={32} color={mycolor} />
-                                <MaterialIcons name="account-circle" size={32} color={mycolor} />
+                                <Ionicons name="md-videocam" size={24} color={mycolor} />
+                                <Ionicons name="md-search" size={24} color={mycolor} />
+                                <MaterialIcons name="account-circle" size={24} color={mycolor} />
                         </V>
 
                 </V>
