@@ -4,7 +4,7 @@ import { Entypo, Ionicons, MaterialIcons } from '@expo/vector-icons'
 import Constant from 'expo-constants'
 
 
-export default function Home() {
+export default function Header() {
 
         const mycolor = '#212121';
 
@@ -18,10 +18,11 @@ export default function Home() {
                                 marginTop: Constant.statusBarHeight,
                                 flexDirection: "row",
                                 justifyContent: "space-between",
-                                elevation: 4,
+                                elevation: 0,
                         }}
                 
                 >
+
                         <V style={{flexDirection: "row", margin: 5}}>
                                 <Entypo 
                                         style={{marginLeft: 20}}
@@ -37,6 +38,9 @@ export default function Home() {
                         </V>
 
                 </V>
+
+
+
         );
 }
 

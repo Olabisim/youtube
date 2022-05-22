@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet as SS, Text as T, View as V } from 'react-native';
-import Header from '../screens/Home'
+import Header from '../components/Header'
 
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
                 <V style={styles.container}>
 
                         <Header />
+                        {/* <T>Header</T> */}
 
                 </V>
         );
@@ -19,7 +20,7 @@ const styles = SS.create({
         container: {
                 flex: 1,
                 backgroundColor: '#fff',
-                alignItems: 'center',
-                justifyContent: 'center',
+                // alignItems: 'center',
+                // justifyContent: 'center',
         },
 });

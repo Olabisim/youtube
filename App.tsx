@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text as T, View } from 'react-native';
 import Home from './src/screens/Home'
 
 
