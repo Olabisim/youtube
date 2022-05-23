@@ -19,7 +19,6 @@ export default function Home() {
                                 <Card />
 
                         </SV>
-                        {/* <T>Header</T> */}
 
                 </V>
         );

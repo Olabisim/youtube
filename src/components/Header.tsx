@@ -1,7 +1,6 @@
 
 import { StyleSheet as SS, Text as T, View as V } from 'react-native';
 import { Entypo, Ionicons, MaterialIcons } from '@expo/vector-icons'
-import Constant from 'expo-constants'
 
 
 export default function Header() {
@@ -15,7 +14,6 @@ export default function Header() {
                         style={{
                                 height: 40,
                                 backgroundColor: 'white',
-                                marginTop: Constant.statusBarHeight,
                                 flexDirection: "row",
                                 justifyContent: "space-between",
                                 elevation: 0,
@@ -28,7 +26,7 @@ export default function Header() {
                                         style={{marginLeft: 20}}
                                         name="youtube" size={28} color="red" 
                                 />
-                                <T style={{fontSize: 22, marginLeft: 5, fontWeight: 'bold'}}>Youtube</T>
+                                <T style={{fontSize: 22, marginLeft: 5, fontWeight: 'bold'}}>YouTube</T>
                         </V>
 
                         <V style={{flexDirection: "row", justifyContent: "space-around", width: 150, margin: 5}}>  
