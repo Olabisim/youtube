@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet as SS, Text as T, View as V, ScrollView as SV, TextInput as TI } from 'react-native';
 import {Ionicons, AntDesign} from '@expo/vector-icons'
+import MiniCard from './MiniCard';
 
 const Search = () => {
         const [value, setValue] = useState('')
@@ -34,6 +35,20 @@ const Search = () => {
                                         size={24}
                                 />
                         </V>
+                        <SV>
+                                <MiniCard />
+                                <MiniCard />
+                                <MiniCard />
+                                <MiniCard />
+                                <MiniCard />
+                                <MiniCard />
+                                <MiniCard />
+                                <MiniCard />
+                                <MiniCard />
+                                <MiniCard />
+                                <MiniCard />
+                                <MiniCard />
+                        </SV>
                 </V>
         )
 
