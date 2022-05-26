@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet as SS, Text as T, View as V, ScrollView as SV, TextInput as TI, FlatList as FL, ActivityIndicator as AI } from 'react-native';
 import {Ionicons, AntDesign} from '@expo/vector-icons'
-import MiniCard from './MiniCard';
+import MiniCard from '../components/MiniCard';
 
 // https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=react&type=video&key=AIzaSyBr7jKwY617rwJ7Dl1Fi4JAWAw_x5_ktbo
 

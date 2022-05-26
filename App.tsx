@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text as T, View } from 'react-native';
 import Home from './src/screens/Home'
-import Search from './src/components/Search'
+import Search from './src/screens/Search'
 import Constant from 'expo-constants'
 
 
