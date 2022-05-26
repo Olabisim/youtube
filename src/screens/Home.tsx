@@ -5,7 +5,7 @@ import Card from '../components/Card'
 import Constant from 'expo-constants'
 
 
-export default function Home() {
+export default function Home({navigation: {navigate}}) {
         return (
 
                 <V style={styles.container}>

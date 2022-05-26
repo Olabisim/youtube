@@ -16,7 +16,18 @@ const Tab = createBottomTabNavigator()
 const Roothome = () => {
         return (
                 <Tab.Navigator>
-                        <Tab.Screen name="Home" component={Home} />
+                        <Tab.Screen name="Home" component={Home} 
+                                        options={{
+                                                title: 'My home',
+                                                headerStyle: {
+                                                  backgroundColor: '#f4511e', 
+                                                },
+                                                headerTintColor: '#fff',
+                                                headerTitleStyle: {
+                                                  fontWeight: 'bold',
+                                                }
+                                        }}
+                                        />
                         <Tab.Screen name="Explore" component={Explore} />
                         <Tab.Screen name="Subscribe" component={Subscribe} />
                 </Tab.Navigator>
