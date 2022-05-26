@@ -4,6 +4,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet as SS, Text as T, View as V, ScrollView as SV, TextInput as TI, FlatList as FL, ActivityIndicator as AI } from 'react-native';
 import {Ionicons, AntDesign} from '@expo/vector-icons'
 import MiniCard from '../components/MiniCard';
+import Constant from 'expo-constants'
 
 // https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=react&type=video&key=AIzaSyBr7jKwY617rwJ7Dl1Fi4JAWAw_x5_ktbo
 
@@ -26,7 +27,7 @@ const Search = () => {
 
         return (
                 <V
-                        style={{flex: 1}}
+                        style={{flex: 1,marginTop: Constant.statusBarHeight}}
                 >
                         <V style={{
                                 padding: 5,
